@@ -1,0 +1,96 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 22:12:00
+
+Name of Chain_1: d1bmld3.pdb (chain All)
+Name of Chain_2: d2sak__.pdb (chain All)
+Length of Chain_1: 88 residues
+Length of Chain_2: 121 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.3317
+Step 00100: Sinkhorn Score = 0.3410
+Step 00200: Sinkhorn Score = 0.3425
+Step 00300: Sinkhorn Score = 0.3436
+Step 00400: Sinkhorn Score = 0.3445
+Step 00500: Sinkhorn Score = 0.3452
+Step 00600: Sinkhorn Score = 0.3459
+Step 00700: Sinkhorn Score = 0.3465
+Step 00800: Sinkhorn Score = 0.3470
+Step 00900: Sinkhorn Score = 0.3475
+Step 01000: Sinkhorn Score = 0.3479
+Step 01100: Sinkhorn Score = 0.3483
+Step 01200: Sinkhorn Score = 0.3487
+Step 01300: Sinkhorn Score = 0.3489
+Step 01400: Sinkhorn Score = 0.3492
+Step 01500: Sinkhorn Score = 0.3494
+Step 01600: Sinkhorn Score = 0.3496
+Step 01700: Sinkhorn Score = 0.3498
+Step 01800: Sinkhorn Score = 0.3501
+Step 01900: Sinkhorn Score = 0.3509
+Step 02000: Sinkhorn Score = 0.3513
+Step 02100: Sinkhorn Score = 0.3516
+Step 02200: Sinkhorn Score = 0.3518
+Step 02300: Sinkhorn Score = 0.3520
+Step 02400: Sinkhorn Score = 0.3522
+Step 02500: Sinkhorn Score = 0.3523
+Step 02600: Sinkhorn Score = 0.3524
+Step 02700: Sinkhorn Score = 0.3525
+Step 02800: Sinkhorn Score = 0.3525
+Step 02900: Sinkhorn Score = 0.3526
+Step 03000: Sinkhorn Score = 0.3526
+Step 03100: Sinkhorn Score = 0.3526
+Step 03200: Sinkhorn Score = 0.3526
+Step 03300: Sinkhorn Score = 0.3526
+Step 03400: Sinkhorn Score = 0.3526
+Step 03500: Sinkhorn Score = 0.3527
+Step 03600: Sinkhorn Score = 0.3527
+Step 03700: Sinkhorn Score = 0.3527
+Step 03800: Sinkhorn Score = 0.3527
+Step 03900: Sinkhorn Score = 0.3527
+Step 04000: Sinkhorn Score = 0.3527
+Step 04100: Sinkhorn Score = 0.3527
+Step 04200: Sinkhorn Score = 0.3527
+Step 04300: Sinkhorn Score = 0.3527
+Step 04400: Sinkhorn Score = 0.3527
+Step 04500: Sinkhorn Score = 0.3527
+Step 04600: Sinkhorn Score = 0.3527
+Step 04700: Sinkhorn Score = 0.3527
+Step 04800: Sinkhorn Score = 0.3527
+Step 04900: Sinkhorn Score = 0.3527
+Step 04999: Sinkhorn Score = 0.3527
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 65 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 65 aligned pairs = 7.37 Å
+Standard TM-score (normalized by reference, L=121) = 0.32223
+Standard TM-score (normalized by mobile,   L=88) = 0.39121
+Sequence identity in aligned region = 0.031
+
+--- Aligned Pairs (mobile, reference) ---
+(4, 1) (8, 19) (10, 33) (11, 8) (12, 9) (13, 109)
+(14, 111) (15, 72) (17, 87) (19, 84) (20, 86) (21, 85)
+(22, 73) (24, 110) (25, 108) (26, 30) (27, 32) (28, 31)
+(29, 0) (30, 104) (34, 42) (35, 46) (36, 43) (37, 45)
+(38, 65) (39, 48) (40, 115) (41, 15) (42, 23) (43, 117)
+(44, 57) (45, 60) (46, 62) (47, 52) (48, 50) (49, 49)
+(50, 47) (51, 44) (52, 13) (53, 113) (54, 114) (55, 12)
+(56, 14) (57, 26) (58, 28) (61, 105) (63, 112) (64, 66)
+(65, 69) (66, 68) (67, 67) (68, 89) (69, 90) (70, 95)
+(71, 94) (72, 96) (73, 38) (74, 36) (77, 34) (78, 37)
+(79, 97) (80, 39) (81, 88) (82, 71) (83, 70)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs_cutoff_7.0/d1bmld3_aligned_to_d2sak___0821.pdb'...
+Success! You can now load 'RPIC_all/d2sak__.pdb' and 'batch_outputs_cutoff_7.0/d1bmld3_aligned_to_d2sak___0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d2sak__.pdb batch_outputs_cutoff_7.0/d1bmld3_aligned_to_d2sak___0821.pdb
+
+Program finished at: 2025-08-21 22:12:04
+Total execution time: 0:00:03.865843

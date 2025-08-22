@@ -1,0 +1,98 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 22:12:05
+
+Name of Chain_1: d1ng4a2.pdb (chain All)
+Name of Chain_2: d3cox_2.pdb (chain All)
+Length of Chain_1: 88 residues
+Length of Chain_2: 130 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.3404
+Step 00100: Sinkhorn Score = 0.3590
+Step 00200: Sinkhorn Score = 0.3752
+Step 00300: Sinkhorn Score = 0.4069
+Step 00400: Sinkhorn Score = 0.4280
+Step 00500: Sinkhorn Score = 0.4409
+Step 00600: Sinkhorn Score = 0.4464
+Step 00700: Sinkhorn Score = 0.4505
+Step 00800: Sinkhorn Score = 0.4536
+Step 00900: Sinkhorn Score = 0.4563
+Step 01000: Sinkhorn Score = 0.4587
+Step 01100: Sinkhorn Score = 0.4608
+Step 01200: Sinkhorn Score = 0.4627
+Step 01300: Sinkhorn Score = 0.4644
+Step 01400: Sinkhorn Score = 0.4661
+Step 01500: Sinkhorn Score = 0.4676
+Step 01600: Sinkhorn Score = 0.4689
+Step 01700: Sinkhorn Score = 0.4701
+Step 01800: Sinkhorn Score = 0.4712
+Step 01900: Sinkhorn Score = 0.4723
+Step 02000: Sinkhorn Score = 0.4734
+Step 02100: Sinkhorn Score = 0.4745
+Step 02200: Sinkhorn Score = 0.4751
+Step 02300: Sinkhorn Score = 0.4755
+Step 02400: Sinkhorn Score = 0.4757
+Step 02500: Sinkhorn Score = 0.4759
+Step 02600: Sinkhorn Score = 0.4759
+Step 02700: Sinkhorn Score = 0.4760
+Step 02800: Sinkhorn Score = 0.4760
+Step 02900: Sinkhorn Score = 0.4761
+Step 03000: Sinkhorn Score = 0.4761
+Step 03100: Sinkhorn Score = 0.4761
+Step 03200: Sinkhorn Score = 0.4761
+Step 03300: Sinkhorn Score = 0.4761
+Step 03400: Sinkhorn Score = 0.4761
+Step 03500: Sinkhorn Score = 0.4761
+Step 03600: Sinkhorn Score = 0.4761
+Step 03700: Sinkhorn Score = 0.4761
+Step 03800: Sinkhorn Score = 0.4761
+Step 03900: Sinkhorn Score = 0.4761
+Step 04000: Sinkhorn Score = 0.4761
+Step 04100: Sinkhorn Score = 0.4761
+Step 04200: Sinkhorn Score = 0.4761
+Step 04300: Sinkhorn Score = 0.4761
+Step 04400: Sinkhorn Score = 0.4761
+Step 04500: Sinkhorn Score = 0.4761
+Step 04600: Sinkhorn Score = 0.4761
+Step 04700: Sinkhorn Score = 0.4761
+Step 04800: Sinkhorn Score = 0.4761
+Step 04900: Sinkhorn Score = 0.4761
+Step 04999: Sinkhorn Score = 0.4761
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 78 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 78 aligned pairs = 7.61 Å
+Standard TM-score (normalized by reference, L=130) = 0.39947
+Standard TM-score (normalized by mobile,   L=88) = 0.51575
+Sequence identity in aligned region = 0.090
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 68) (1, 67) (2, 66) (3, 1) (4, 3) (5, 121)
+(6, 61) (7, 94) (8, 95) (9, 98) (10, 102) (11, 107)
+(12, 10) (13, 106) (14, 12) (15, 13) (19, 116) (20, 112)
+(21, 113) (22, 114) (25, 123) (26, 120) (28, 8) (29, 111)
+(30, 110) (32, 77) (33, 73) (35, 108) (36, 109) (37, 118)
+(38, 7) (39, 6) (40, 5) (41, 4) (42, 124) (43, 2)
+(44, 128) (45, 129) (46, 65) (47, 64) (48, 62) (49, 89)
+(50, 37) (51, 38) (52, 32) (53, 31) (54, 40) (55, 60)
+(56, 41) (57, 28) (58, 42) (59, 58) (60, 57) (61, 43)
+(62, 44) (63, 56) (65, 45) (66, 46) (67, 52) (68, 17)
+(69, 53) (70, 55) (72, 15) (73, 11) (74, 105) (75, 101)
+(76, 100) (77, 99) (78, 97) (79, 93) (80, 90) (81, 88)
+(82, 87) (83, 84) (84, 83) (85, 82) (86, 81) (87, 69)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs_cutoff_7.0/d1ng4a2_aligned_to_d3cox_2_0821.pdb'...
+Success! You can now load 'RPIC_all/d3cox_2.pdb' and 'batch_outputs_cutoff_7.0/d1ng4a2_aligned_to_d3cox_2_0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d3cox_2.pdb batch_outputs_cutoff_7.0/d1ng4a2_aligned_to_d3cox_2_0821.pdb
+
+Program finished at: 2025-08-21 22:12:09
+Total execution time: 0:00:03.914836

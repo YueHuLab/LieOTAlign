@@ -1,0 +1,99 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 22:14:12
+
+Name of Chain_1: d1gsa_1.pdb (chain All)
+Name of Chain_2: d2hgsa1.pdb (chain All)
+Length of Chain_1: 122 residues
+Length of Chain_2: 102 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.3633
+Step 00100: Sinkhorn Score = 0.3705
+Step 00200: Sinkhorn Score = 0.3738
+Step 00300: Sinkhorn Score = 0.3771
+Step 00400: Sinkhorn Score = 0.3894
+Step 00500: Sinkhorn Score = 0.3979
+Step 00600: Sinkhorn Score = 0.4188
+Step 00700: Sinkhorn Score = 0.4205
+Step 00800: Sinkhorn Score = 0.4209
+Step 00900: Sinkhorn Score = 0.4213
+Step 01000: Sinkhorn Score = 0.4217
+Step 01100: Sinkhorn Score = 0.4221
+Step 01200: Sinkhorn Score = 0.4224
+Step 01300: Sinkhorn Score = 0.4226
+Step 01400: Sinkhorn Score = 0.4227
+Step 01500: Sinkhorn Score = 0.4228
+Step 01600: Sinkhorn Score = 0.4229
+Step 01700: Sinkhorn Score = 0.4229
+Step 01800: Sinkhorn Score = 0.4230
+Step 01900: Sinkhorn Score = 0.4230
+Step 02000: Sinkhorn Score = 0.4231
+Step 02100: Sinkhorn Score = 0.4231
+Step 02200: Sinkhorn Score = 0.4231
+Step 02300: Sinkhorn Score = 0.4231
+Step 02400: Sinkhorn Score = 0.4232
+Step 02500: Sinkhorn Score = 0.4232
+Step 02600: Sinkhorn Score = 0.4232
+Step 02700: Sinkhorn Score = 0.4232
+Step 02800: Sinkhorn Score = 0.4232
+Step 02900: Sinkhorn Score = 0.4232
+Step 03000: Sinkhorn Score = 0.4232
+Step 03100: Sinkhorn Score = 0.4232
+Step 03200: Sinkhorn Score = 0.4232
+Step 03300: Sinkhorn Score = 0.4232
+Step 03400: Sinkhorn Score = 0.4232
+Step 03500: Sinkhorn Score = 0.4232
+Step 03600: Sinkhorn Score = 0.4232
+Step 03700: Sinkhorn Score = 0.4232
+Step 03800: Sinkhorn Score = 0.4232
+Step 03900: Sinkhorn Score = 0.4232
+Step 04000: Sinkhorn Score = 0.4232
+Step 04100: Sinkhorn Score = 0.4232
+Step 04200: Sinkhorn Score = 0.4232
+Step 04300: Sinkhorn Score = 0.4232
+Step 04400: Sinkhorn Score = 0.4232
+Step 04500: Sinkhorn Score = 0.4232
+Step 04600: Sinkhorn Score = 0.4232
+Step 04700: Sinkhorn Score = 0.4232
+Step 04800: Sinkhorn Score = 0.4232
+Step 04900: Sinkhorn Score = 0.4232
+Step 04999: Sinkhorn Score = 0.4232
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 80 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 80 aligned pairs = 4.79 Å
+Standard TM-score (normalized by reference, L=102) = 0.48388
+Standard TM-score (normalized by mobile,   L=122) = 0.42954
+Sequence identity in aligned region = 0.050
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 24) (1, 25) (2, 22) (3, 63) (4, 5) (5, 64)
+(6, 80) (7, 81) (8, 78) (9, 73) (10, 67) (11, 69)
+(12, 70) (15, 101) (16, 100) (17, 99) (19, 96) (20, 95)
+(21, 98) (22, 97) (23, 93) (24, 92) (29, 75) (33, 21)
+(35, 6) (36, 7) (38, 37) (39, 40) (40, 38) (41, 36)
+(42, 39) (43, 42) (49, 55) (51, 35) (52, 10) (54, 8)
+(55, 18) (56, 65) (66, 68) (67, 66) (69, 14) (70, 15)
+(71, 12) (74, 34) (76, 33) (77, 3) (78, 31) (79, 32)
+(80, 4) (81, 61) (82, 62) (83, 91) (84, 84) (85, 85)
+(87, 82) (88, 79) (90, 86) (93, 41) (94, 83) (95, 46)
+(96, 43) (97, 44) (98, 45) (101, 54) (102, 53) (103, 56)
+(104, 57) (105, 58) (108, 1) (109, 2) (110, 60) (111, 59)
+(112, 89) (113, 88) (114, 51) (115, 52) (116, 47) (117, 49)
+(118, 50) (120, 48)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs_cutoff_7.0/d1gsa_1_aligned_to_d2hgsa1_0821.pdb'...
+Success! You can now load 'RPIC_all/d2hgsa1.pdb' and 'batch_outputs_cutoff_7.0/d1gsa_1_aligned_to_d2hgsa1_0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d2hgsa1.pdb batch_outputs_cutoff_7.0/d1gsa_1_aligned_to_d2hgsa1_0821.pdb
+
+Program finished at: 2025-08-21 22:14:16
+Total execution time: 0:00:04.028919

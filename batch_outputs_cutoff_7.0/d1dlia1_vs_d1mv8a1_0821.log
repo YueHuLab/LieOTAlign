@@ -1,0 +1,97 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 22:14:53
+
+Name of Chain_1: d1dlia1.pdb (chain All)
+Name of Chain_2: d1mv8a1.pdb (chain All)
+Length of Chain_1: 98 residues
+Length of Chain_2: 98 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.2549
+Step 00100: Sinkhorn Score = 0.2788
+Step 00200: Sinkhorn Score = 0.2995
+Step 00300: Sinkhorn Score = 0.3085
+Step 00400: Sinkhorn Score = 0.3171
+Step 00500: Sinkhorn Score = 0.3320
+Step 00600: Sinkhorn Score = 0.3556
+Step 00700: Sinkhorn Score = 0.3620
+Step 00800: Sinkhorn Score = 0.3636
+Step 00900: Sinkhorn Score = 0.3660
+Step 01000: Sinkhorn Score = 0.3678
+Step 01100: Sinkhorn Score = 0.3688
+Step 01200: Sinkhorn Score = 0.3694
+Step 01300: Sinkhorn Score = 0.3699
+Step 01400: Sinkhorn Score = 0.3703
+Step 01500: Sinkhorn Score = 0.3707
+Step 01600: Sinkhorn Score = 0.3709
+Step 01700: Sinkhorn Score = 0.3711
+Step 01800: Sinkhorn Score = 0.3713
+Step 01900: Sinkhorn Score = 0.3715
+Step 02000: Sinkhorn Score = 0.3718
+Step 02100: Sinkhorn Score = 0.3723
+Step 02200: Sinkhorn Score = 0.3731
+Step 02300: Sinkhorn Score = 0.3738
+Step 02400: Sinkhorn Score = 0.3745
+Step 02500: Sinkhorn Score = 0.3752
+Step 02600: Sinkhorn Score = 0.3761
+Step 02700: Sinkhorn Score = 0.3777
+Step 02800: Sinkhorn Score = 0.3791
+Step 02900: Sinkhorn Score = 0.3802
+Step 03000: Sinkhorn Score = 0.3809
+Step 03100: Sinkhorn Score = 0.3814
+Step 03200: Sinkhorn Score = 0.3817
+Step 03300: Sinkhorn Score = 0.3818
+Step 03400: Sinkhorn Score = 0.3820
+Step 03500: Sinkhorn Score = 0.3820
+Step 03600: Sinkhorn Score = 0.3821
+Step 03700: Sinkhorn Score = 0.3821
+Step 03800: Sinkhorn Score = 0.3821
+Step 03900: Sinkhorn Score = 0.3821
+Step 04000: Sinkhorn Score = 0.3821
+Step 04100: Sinkhorn Score = 0.3821
+Step 04200: Sinkhorn Score = 0.3821
+Step 04300: Sinkhorn Score = 0.3821
+Step 04400: Sinkhorn Score = 0.3821
+Step 04500: Sinkhorn Score = 0.3821
+Step 04600: Sinkhorn Score = 0.3821
+Step 04700: Sinkhorn Score = 0.3821
+Step 04800: Sinkhorn Score = 0.3821
+Step 04900: Sinkhorn Score = 0.3821
+Step 04999: Sinkhorn Score = 0.3821
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 72 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 72 aligned pairs = 6.67 Å
+Standard TM-score (normalized by reference, L=98) = 0.41821
+Standard TM-score (normalized by mobile,   L=98) = 0.41821
+Sequence identity in aligned region = 0.014
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 0) (4, 29) (5, 26) (7, 36) (8, 25) (9, 22)
+(10, 18) (11, 21) (12, 23) (13, 19) (14, 17) (15, 20)
+(16, 86) (17, 16) (23, 94) (24, 93) (25, 56) (26, 60)
+(27, 97) (29, 58) (30, 59) (35, 57) (37, 2) (40, 6)
+(41, 5) (43, 9) (44, 7) (45, 8) (47, 15) (48, 12)
+(49, 11) (50, 10) (51, 14) (53, 13) (54, 52) (55, 55)
+(56, 54) (57, 53) (58, 48) (59, 49) (61, 42) (62, 41)
+(63, 39) (66, 38) (67, 35) (68, 24) (70, 28) (71, 27)
+(72, 77) (73, 31) (74, 30) (75, 82) (76, 80) (77, 79)
+(78, 81) (79, 78) (80, 83) (82, 85) (83, 84) (84, 74)
+(85, 88) (86, 87) (87, 73) (88, 70) (89, 90) (90, 69)
+(91, 66) (92, 67) (93, 61) (94, 65) (95, 63) (96, 62)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs_cutoff_7.0/d1dlia1_aligned_to_d1mv8a1_0821.pdb'...
+Success! You can now load 'RPIC_all/d1mv8a1.pdb' and 'batch_outputs_cutoff_7.0/d1dlia1_aligned_to_d1mv8a1_0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d1mv8a1.pdb batch_outputs_cutoff_7.0/d1dlia1_aligned_to_d1mv8a1_0821.pdb
+
+Program finished at: 2025-08-21 22:14:57
+Total execution time: 0:00:03.724446
