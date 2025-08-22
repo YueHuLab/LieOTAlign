@@ -1,0 +1,98 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 19:39:08
+
+Name of Chain_1: d2bbma_.pdb (chain All)
+Name of Chain_2: d4cln__.pdb (chain All)
+Length of Chain_1: 148 residues
+Length of Chain_2: 148 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.1369
+Step 00100: Sinkhorn Score = 0.1541
+Step 00200: Sinkhorn Score = 0.1682
+Step 00300: Sinkhorn Score = 0.1854
+Step 00400: Sinkhorn Score = 0.1936
+Step 00500: Sinkhorn Score = 0.2004
+Step 00600: Sinkhorn Score = 0.2172
+Step 00700: Sinkhorn Score = 0.2217
+Step 00800: Sinkhorn Score = 0.2248
+Step 00900: Sinkhorn Score = 0.2272
+Step 01000: Sinkhorn Score = 0.2289
+Step 01100: Sinkhorn Score = 0.2314
+Step 01200: Sinkhorn Score = 0.2332
+Step 01300: Sinkhorn Score = 0.2344
+Step 01400: Sinkhorn Score = 0.2351
+Step 01500: Sinkhorn Score = 0.2357
+Step 01600: Sinkhorn Score = 0.2361
+Step 01700: Sinkhorn Score = 0.2363
+Step 01800: Sinkhorn Score = 0.2365
+Step 01900: Sinkhorn Score = 0.2367
+Step 02000: Sinkhorn Score = 0.2368
+Step 02100: Sinkhorn Score = 0.2369
+Step 02200: Sinkhorn Score = 0.2369
+Step 02300: Sinkhorn Score = 0.2370
+Step 02400: Sinkhorn Score = 0.2371
+Step 02500: Sinkhorn Score = 0.2372
+Step 02600: Sinkhorn Score = 0.2373
+Step 02700: Sinkhorn Score = 0.2380
+Step 02800: Sinkhorn Score = 0.2402
+Step 02900: Sinkhorn Score = 0.2411
+Step 03000: Sinkhorn Score = 0.2415
+Step 03100: Sinkhorn Score = 0.2417
+Step 03200: Sinkhorn Score = 0.2419
+Step 03300: Sinkhorn Score = 0.2420
+Step 03400: Sinkhorn Score = 0.2420
+Step 03500: Sinkhorn Score = 0.2421
+Step 03600: Sinkhorn Score = 0.2421
+Step 03700: Sinkhorn Score = 0.2421
+Step 03800: Sinkhorn Score = 0.2421
+Step 03900: Sinkhorn Score = 0.2421
+Step 04000: Sinkhorn Score = 0.2421
+Step 04100: Sinkhorn Score = 0.2421
+Step 04200: Sinkhorn Score = 0.2421
+Step 04300: Sinkhorn Score = 0.2421
+Step 04400: Sinkhorn Score = 0.2421
+Step 04500: Sinkhorn Score = 0.2421
+Step 04600: Sinkhorn Score = 0.2421
+Step 04700: Sinkhorn Score = 0.2421
+Step 04800: Sinkhorn Score = 0.2421
+Step 04900: Sinkhorn Score = 0.2421
+Step 04999: Sinkhorn Score = 0.2421
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 78 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 78 aligned pairs = 9.76 Å
+Standard TM-score (normalized by reference, L=148) = 0.29513
+Standard TM-score (normalized by mobile,   L=148) = 0.29513
+Sequence identity in aligned region = 0.077
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 44) (1, 43) (2, 45) (3, 32) (4, 42) (5, 41)
+(6, 35) (7, 46) (9, 40) (10, 38) (21, 96) (25, 26)
+(26, 141) (28, 136) (29, 97) (30, 95) (31, 137) (32, 88)
+(33, 89) (35, 85) (37, 86) (38, 83) (39, 84) (40, 87)
+(41, 91) (43, 104) (44, 99) (45, 124) (46, 127) (47, 140)
+(48, 135) (49, 128) (50, 139) (51, 138) (52, 130) (53, 129)
+(54, 142) (56, 25) (58, 131) (60, 132) (62, 60) (70, 18)
+(72, 49) (82, 146) (83, 81) (84, 74) (85, 73) (87, 77)
+(88, 76) (90, 80) (91, 79) (92, 75) (101, 30) (119, 28)
+(122, 16) (124, 10) (125, 9) (126, 13) (127, 11) (128, 8)
+(129, 12) (130, 64) (132, 5) (133, 6) (134, 4) (135, 7)
+(136, 3) (137, 1) (138, 0) (139, 68) (140, 72) (141, 69)
+(142, 66) (143, 67) (144, 71) (145, 70) (146, 54) (147, 55)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs/d2bbma__aligned_to_d4cln___0821.pdb'...
+Success! You can now load 'RPIC_all/d4cln__.pdb' and 'batch_outputs/d2bbma__aligned_to_d4cln___0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d4cln__.pdb batch_outputs/d2bbma__aligned_to_d4cln___0821.pdb
+
+Program finished at: 2025-08-21 19:39:13
+Total execution time: 0:00:04.989238

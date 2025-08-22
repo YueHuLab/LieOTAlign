@@ -1,0 +1,115 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 19:38:13
+
+Name of Chain_1: d1nw5a_.pdb (chain All)
+Name of Chain_2: d2adma_.pdb (chain All)
+Length of Chain_1: 270 residues
+Length of Chain_2: 385 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.2871
+Step 00100: Sinkhorn Score = 0.2986
+Step 00200: Sinkhorn Score = 0.3026
+Step 00300: Sinkhorn Score = 0.3039
+Step 00400: Sinkhorn Score = 0.3048
+Step 00500: Sinkhorn Score = 0.3056
+Step 00600: Sinkhorn Score = 0.3063
+Step 00700: Sinkhorn Score = 0.3075
+Step 00800: Sinkhorn Score = 0.3096
+Step 00900: Sinkhorn Score = 0.3119
+Step 01000: Sinkhorn Score = 0.3134
+Step 01100: Sinkhorn Score = 0.3146
+Step 01200: Sinkhorn Score = 0.3156
+Step 01300: Sinkhorn Score = 0.3162
+Step 01400: Sinkhorn Score = 0.3167
+Step 01500: Sinkhorn Score = 0.3173
+Step 01600: Sinkhorn Score = 0.3178
+Step 01700: Sinkhorn Score = 0.3188
+Step 01800: Sinkhorn Score = 0.3200
+Step 01900: Sinkhorn Score = 0.3205
+Step 02000: Sinkhorn Score = 0.3210
+Step 02100: Sinkhorn Score = 0.3214
+Step 02200: Sinkhorn Score = 0.3221
+Step 02300: Sinkhorn Score = 0.3226
+Step 02400: Sinkhorn Score = 0.3267
+Step 02500: Sinkhorn Score = 0.3286
+Step 02600: Sinkhorn Score = 0.3294
+Step 02700: Sinkhorn Score = 0.3297
+Step 02800: Sinkhorn Score = 0.3298
+Step 02900: Sinkhorn Score = 0.3299
+Step 03000: Sinkhorn Score = 0.3300
+Step 03100: Sinkhorn Score = 0.3302
+Step 03200: Sinkhorn Score = 0.3304
+Step 03300: Sinkhorn Score = 0.3306
+Step 03400: Sinkhorn Score = 0.3325
+Step 03500: Sinkhorn Score = 0.3327
+Step 03600: Sinkhorn Score = 0.3329
+Step 03700: Sinkhorn Score = 0.3331
+Step 03800: Sinkhorn Score = 0.3331
+Step 03900: Sinkhorn Score = 0.3332
+Step 04000: Sinkhorn Score = 0.3332
+Step 04100: Sinkhorn Score = 0.3332
+Step 04200: Sinkhorn Score = 0.3332
+Step 04300: Sinkhorn Score = 0.3332
+Step 04400: Sinkhorn Score = 0.3332
+Step 04500: Sinkhorn Score = 0.3332
+Step 04600: Sinkhorn Score = 0.3332
+Step 04700: Sinkhorn Score = 0.3332
+Step 04800: Sinkhorn Score = 0.3332
+Step 04900: Sinkhorn Score = 0.3332
+Step 04999: Sinkhorn Score = 0.3332
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 176 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 176 aligned pairs = 8.48 Å
+Standard TM-score (normalized by reference, L=385) = 0.34724
+Standard TM-score (normalized by mobile,   L=270) = 0.46453
+Sequence identity in aligned region = 0.062
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 346) (1, 314) (2, 312) (3, 311) (4, 309) (6, 52)
+(9, 170) (10, 168) (11, 165) (12, 167) (17, 59) (18, 280)
+(23, 357) (24, 358) (26, 362) (27, 138) (28, 174) (29, 136)
+(31, 87) (32, 86) (33, 0) (34, 1) (43, 35) (44, 31)
+(45, 2) (46, 7) (47, 4) (48, 3) (49, 6) (50, 5)
+(52, 166) (53, 163) (54, 198) (55, 193) (56, 164) (57, 191)
+(58, 192) (61, 220) (62, 203) (63, 218) (64, 216) (66, 162)
+(67, 137) (68, 175) (69, 135) (70, 114) (71, 117) (72, 121)
+(73, 25) (74, 26) (75, 49) (76, 27) (77, 28) (78, 29)
+(79, 55) (81, 83) (82, 85) (83, 133) (84, 131) (85, 82)
+(86, 134) (87, 178) (88, 14) (89, 11) (90, 10) (91, 13)
+(92, 12) (93, 9) (94, 199) (95, 201) (96, 189) (97, 187)
+(98, 159) (99, 186) (100, 158) (101, 179) (102, 152) (103, 119)
+(104, 148) (105, 105) (106, 104) (107, 102) (108, 101) (109, 100)
+(110, 96) (111, 99) (112, 68) (113, 67) (114, 74) (115, 72)
+(116, 73) (117, 71) (118, 70) (119, 103) (120, 120) (121, 115)
+(122, 118) (124, 177) (125, 160) (126, 161) (127, 188) (128, 190)
+(129, 202) (130, 205) (131, 204) (133, 217) (134, 206) (135, 209)
+(138, 230) (167, 210) (168, 211) (169, 154) (170, 153) (171, 151)
+(172, 147) (173, 106) (175, 108) (176, 111) (177, 110) (179, 94)
+(184, 384) (188, 89) (189, 88) (191, 112) (192, 109) (194, 144)
+(195, 145) (196, 142) (197, 143) (198, 146) (199, 140) (200, 141)
+(201, 213) (202, 212) (203, 214) (204, 215) (205, 221) (206, 374)
+(207, 355) (208, 354) (209, 356) (210, 359) (211, 361) (213, 173)
+(214, 172) (220, 363) (221, 365) (223, 367) (224, 366) (225, 306)
+(226, 368) (227, 369) (228, 371) (229, 370) (231, 310) (233, 364)
+(235, 171) (236, 169) (238, 39) (241, 381) (245, 266) (246, 243)
+(248, 307) (249, 325) (250, 242) (251, 326) (252, 329) (253, 304)
+(254, 305) (255, 313) (256, 308) (258, 267) (259, 66) (265, 348)
+(268, 352) (269, 351)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs/d1nw5a__aligned_to_d2adma__0821.pdb'...
+Success! You can now load 'RPIC_all/d2adma_.pdb' and 'batch_outputs/d1nw5a__aligned_to_d2adma__0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d2adma_.pdb batch_outputs/d1nw5a__aligned_to_d2adma__0821.pdb
+
+Program finished at: 2025-08-21 19:38:33
+Total execution time: 0:00:20.086390

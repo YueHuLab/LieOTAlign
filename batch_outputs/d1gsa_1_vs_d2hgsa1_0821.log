@@ -1,0 +1,98 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 19:38:34
+
+Name of Chain_1: d1gsa_1.pdb (chain All)
+Name of Chain_2: d2hgsa1.pdb (chain All)
+Length of Chain_1: 122 residues
+Length of Chain_2: 102 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.3292
+Step 00100: Sinkhorn Score = 0.3439
+Step 00200: Sinkhorn Score = 0.3641
+Step 00300: Sinkhorn Score = 0.3861
+Step 00400: Sinkhorn Score = 0.3884
+Step 00500: Sinkhorn Score = 0.3895
+Step 00600: Sinkhorn Score = 0.3906
+Step 00700: Sinkhorn Score = 0.3912
+Step 00800: Sinkhorn Score = 0.3917
+Step 00900: Sinkhorn Score = 0.3920
+Step 01000: Sinkhorn Score = 0.3923
+Step 01100: Sinkhorn Score = 0.3925
+Step 01200: Sinkhorn Score = 0.3927
+Step 01300: Sinkhorn Score = 0.3928
+Step 01400: Sinkhorn Score = 0.3928
+Step 01500: Sinkhorn Score = 0.3929
+Step 01600: Sinkhorn Score = 0.3929
+Step 01700: Sinkhorn Score = 0.3929
+Step 01800: Sinkhorn Score = 0.3930
+Step 01900: Sinkhorn Score = 0.3930
+Step 02000: Sinkhorn Score = 0.3930
+Step 02100: Sinkhorn Score = 0.3930
+Step 02200: Sinkhorn Score = 0.3930
+Step 02300: Sinkhorn Score = 0.3930
+Step 02400: Sinkhorn Score = 0.3930
+Step 02500: Sinkhorn Score = 0.3930
+Step 02600: Sinkhorn Score = 0.3930
+Step 02700: Sinkhorn Score = 0.3930
+Step 02800: Sinkhorn Score = 0.3930
+Step 02900: Sinkhorn Score = 0.3930
+Step 03000: Sinkhorn Score = 0.3930
+Step 03100: Sinkhorn Score = 0.3930
+Step 03200: Sinkhorn Score = 0.3930
+Step 03300: Sinkhorn Score = 0.3930
+Step 03400: Sinkhorn Score = 0.3930
+Step 03500: Sinkhorn Score = 0.3930
+Step 03600: Sinkhorn Score = 0.3930
+Step 03700: Sinkhorn Score = 0.3930
+Step 03800: Sinkhorn Score = 0.3930
+Step 03900: Sinkhorn Score = 0.3930
+Step 04000: Sinkhorn Score = 0.3930
+Step 04100: Sinkhorn Score = 0.3930
+Step 04200: Sinkhorn Score = 0.3930
+Step 04300: Sinkhorn Score = 0.3930
+Step 04400: Sinkhorn Score = 0.3930
+Step 04500: Sinkhorn Score = 0.3930
+Step 04600: Sinkhorn Score = 0.3930
+Step 04700: Sinkhorn Score = 0.3930
+Step 04800: Sinkhorn Score = 0.3930
+Step 04900: Sinkhorn Score = 0.3930
+Step 04999: Sinkhorn Score = 0.3930
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 78 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 78 aligned pairs = 4.75 Å
+Standard TM-score (normalized by reference, L=102) = 0.48011
+Standard TM-score (normalized by mobile,   L=122) = 0.42568
+Sequence identity in aligned region = 0.064
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 24) (1, 25) (2, 22) (4, 5) (5, 62) (7, 81)
+(8, 78) (9, 73) (10, 67) (11, 69) (12, 70) (13, 68)
+(15, 101) (16, 100) (17, 99) (19, 96) (20, 94) (21, 98)
+(22, 97) (23, 93) (24, 92) (29, 75) (31, 20) (33, 21)
+(34, 63) (35, 6) (36, 7) (37, 36) (38, 37) (39, 41)
+(40, 38) (41, 39) (42, 40) (43, 43) (49, 55) (52, 35)
+(53, 34) (54, 8) (55, 18) (56, 65) (57, 17) (67, 66)
+(68, 12) (69, 14) (70, 15) (71, 10) (76, 33) (78, 31)
+(79, 32) (80, 3) (81, 4) (82, 61) (83, 91) (84, 84)
+(85, 85) (86, 83) (87, 82) (88, 86) (89, 79) (96, 45)
+(97, 44) (98, 46) (100, 54) (101, 53) (103, 56) (104, 57)
+(105, 58) (108, 1) (109, 2) (110, 60) (111, 59) (112, 89)
+(113, 88) (114, 51) (116, 47) (117, 49) (118, 50) (120, 48)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs/d1gsa_1_aligned_to_d2hgsa1_0821.pdb'...
+Success! You can now load 'RPIC_all/d2hgsa1.pdb' and 'batch_outputs/d1gsa_1_aligned_to_d2hgsa1_0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d2hgsa1.pdb batch_outputs/d1gsa_1_aligned_to_d2hgsa1_0821.pdb
+
+Program finished at: 2025-08-21 19:38:38
+Total execution time: 0:00:03.975382
