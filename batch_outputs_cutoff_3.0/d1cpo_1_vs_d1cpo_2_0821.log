@@ -1,0 +1,101 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 20:55:04
+
+Name of Chain_1: d1cpo_1.pdb (chain All)
+Name of Chain_2: d1cpo_2.pdb (chain All)
+Length of Chain_1: 119 residues
+Length of Chain_2: 179 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.1602
+Step 00100: Sinkhorn Score = 0.1783
+Step 00200: Sinkhorn Score = 0.1792
+Step 00300: Sinkhorn Score = 0.1798
+Step 00400: Sinkhorn Score = 0.1809
+Step 00500: Sinkhorn Score = 0.1817
+Step 00600: Sinkhorn Score = 0.1821
+Step 00700: Sinkhorn Score = 0.1824
+Step 00800: Sinkhorn Score = 0.1825
+Step 00900: Sinkhorn Score = 0.1826
+Step 01000: Sinkhorn Score = 0.1827
+Step 01100: Sinkhorn Score = 0.1830
+Step 01200: Sinkhorn Score = 0.1978
+Step 01300: Sinkhorn Score = 0.1982
+Step 01400: Sinkhorn Score = 0.1983
+Step 01500: Sinkhorn Score = 0.1984
+Step 01600: Sinkhorn Score = 0.1985
+Step 01700: Sinkhorn Score = 0.1985
+Step 01800: Sinkhorn Score = 0.1985
+Step 01900: Sinkhorn Score = 0.1985
+Step 02000: Sinkhorn Score = 0.1985
+Step 02100: Sinkhorn Score = 0.1985
+Step 02200: Sinkhorn Score = 0.1985
+Step 02300: Sinkhorn Score = 0.1985
+Step 02400: Sinkhorn Score = 0.1985
+Step 02500: Sinkhorn Score = 0.1985
+Step 02600: Sinkhorn Score = 0.1985
+Step 02700: Sinkhorn Score = 0.1985
+Step 02800: Sinkhorn Score = 0.1985
+Step 02900: Sinkhorn Score = 0.1985
+Step 03000: Sinkhorn Score = 0.1985
+Step 03100: Sinkhorn Score = 0.1985
+Step 03200: Sinkhorn Score = 0.1985
+Step 03300: Sinkhorn Score = 0.1985
+Step 03400: Sinkhorn Score = 0.1985
+Step 03500: Sinkhorn Score = 0.1985
+Step 03600: Sinkhorn Score = 0.1985
+Step 03700: Sinkhorn Score = 0.1985
+Step 03800: Sinkhorn Score = 0.1985
+Step 03900: Sinkhorn Score = 0.1985
+Step 04000: Sinkhorn Score = 0.1985
+Step 04100: Sinkhorn Score = 0.1985
+Step 04200: Sinkhorn Score = 0.1985
+Step 04300: Sinkhorn Score = 0.1985
+Step 04400: Sinkhorn Score = 0.1985
+Step 04500: Sinkhorn Score = 0.1985
+Step 04600: Sinkhorn Score = 0.1985
+Step 04700: Sinkhorn Score = 0.1985
+Step 04800: Sinkhorn Score = 0.1985
+Step 04900: Sinkhorn Score = 0.1985
+Step 04999: Sinkhorn Score = 0.1985
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 91 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 91 aligned pairs = 5.86 Å
+Standard TM-score (normalized by reference, L=179) = 0.33344
+Standard TM-score (normalized by mobile,   L=119) = 0.44477
+Sequence identity in aligned region = 0.099
+
+--- Aligned Pairs (mobile, reference) ---
+(0, 101) (2, 177) (3, 102) (5, 103) (6, 104) (8, 76)
+(9, 75) (10, 74) (11, 108) (12, 106) (13, 105) (14, 99)
+(15, 100) (16, 92) (17, 96) (18, 95) (19, 10) (20, 167)
+(21, 6) (22, 8) (23, 9) (24, 7) (25, 14) (27, 40)
+(28, 36) (29, 18) (30, 33) (31, 64) (32, 15) (33, 90)
+(35, 172) (36, 94) (37, 93) (38, 97) (39, 70) (41, 50)
+(47, 63) (49, 62) (52, 66) (53, 117) (54, 69) (55, 67)
+(56, 68) (58, 72) (59, 71) (60, 85) (61, 84) (62, 83)
+(63, 82) (64, 120) (65, 123) (66, 30) (67, 124) (68, 122)
+(69, 125) (71, 61) (72, 144) (73, 143) (74, 57) (75, 58)
+(76, 145) (77, 55) (78, 56) (81, 54) (82, 52) (83, 51)
+(84, 151) (86, 150) (87, 148) (88, 147) (89, 149) (90, 59)
+(91, 161) (93, 60) (97, 44) (98, 53) (99, 45) (100, 136)
+(101, 137) (102, 140) (103, 41) (104, 42) (105, 134) (106, 133)
+(108, 21) (109, 20) (110, 17) (112, 43) (113, 46) (114, 49)
+(118, 0)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs_cutoff_3.0/d1cpo_1_aligned_to_d1cpo_2_0821.pdb'...
+Success! You can now load 'RPIC_all/d1cpo_2.pdb' and 'batch_outputs_cutoff_3.0/d1cpo_1_aligned_to_d1cpo_2_0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d1cpo_2.pdb batch_outputs_cutoff_3.0/d1cpo_1_aligned_to_d1cpo_2_0821.pdb
+
+Program finished at: 2025-08-21 20:55:09
+Total execution time: 0:00:05.072813

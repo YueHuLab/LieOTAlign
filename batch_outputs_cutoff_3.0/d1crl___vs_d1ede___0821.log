@@ -1,0 +1,127 @@
+
+**************************************************************************
+ *              gemini_tm_align_final.py (2025)                       *
+ * A tool to find the optimal superposition for protein structures      *
+ * Developed with Gemini based on the principles of TM-align            *
+ * Author: Yue Hu (huyue@qlu.edu.cn)                                  *
+ **************************************************************************
+
+Program started at: 2025-08-21 20:54:37
+
+Name of Chain_1: d1crl__.pdb (chain All)
+Name of Chain_2: d1ede__.pdb (chain All)
+Length of Chain_1: 534 residues
+Length of Chain_2: 310 residues
+
+--- Finding Optimal Superposition (Sinkhorn Differentiable TM-score) ---
+Step 00000: Sinkhorn Score = 0.2609
+Step 00100: Sinkhorn Score = 0.2763
+Step 00200: Sinkhorn Score = 0.2765
+Step 00300: Sinkhorn Score = 0.2766
+Step 00400: Sinkhorn Score = 0.2766
+Step 00500: Sinkhorn Score = 0.2766
+Step 00600: Sinkhorn Score = 0.2766
+Step 00700: Sinkhorn Score = 0.2766
+Step 00800: Sinkhorn Score = 0.2766
+Step 00900: Sinkhorn Score = 0.2766
+Step 01000: Sinkhorn Score = 0.2766
+Step 01100: Sinkhorn Score = 0.2766
+Step 01200: Sinkhorn Score = 0.2766
+Step 01300: Sinkhorn Score = 0.2766
+Step 01400: Sinkhorn Score = 0.2766
+Step 01500: Sinkhorn Score = 0.2766
+Step 01600: Sinkhorn Score = 0.2766
+Step 01700: Sinkhorn Score = 0.2766
+Step 01800: Sinkhorn Score = 0.2766
+Step 01900: Sinkhorn Score = 0.2766
+Step 02000: Sinkhorn Score = 0.2766
+Step 02100: Sinkhorn Score = 0.2766
+Step 02200: Sinkhorn Score = 0.2766
+Step 02300: Sinkhorn Score = 0.2766
+Step 02400: Sinkhorn Score = 0.2766
+Step 02500: Sinkhorn Score = 0.2766
+Step 02600: Sinkhorn Score = 0.2766
+Step 02700: Sinkhorn Score = 0.2766
+Step 02800: Sinkhorn Score = 0.2766
+Step 02900: Sinkhorn Score = 0.2766
+Step 03000: Sinkhorn Score = 0.2766
+Step 03100: Sinkhorn Score = 0.2766
+Step 03200: Sinkhorn Score = 0.2766
+Step 03300: Sinkhorn Score = 0.2766
+Step 03400: Sinkhorn Score = 0.2766
+Step 03500: Sinkhorn Score = 0.2766
+Step 03600: Sinkhorn Score = 0.2766
+Step 03700: Sinkhorn Score = 0.2766
+Step 03800: Sinkhorn Score = 0.2766
+Step 03900: Sinkhorn Score = 0.2766
+Step 04000: Sinkhorn Score = 0.2766
+Step 04100: Sinkhorn Score = 0.2766
+Step 04200: Sinkhorn Score = 0.2766
+Step 04300: Sinkhorn Score = 0.2766
+Step 04400: Sinkhorn Score = 0.2766
+Step 04500: Sinkhorn Score = 0.2766
+Step 04600: Sinkhorn Score = 0.2766
+Step 04700: Sinkhorn Score = 0.2766
+Step 04800: Sinkhorn Score = 0.2766
+Step 04900: Sinkhorn Score = 0.2766
+Step 04999: Sinkhorn Score = 0.2766
+--- Global Search Finished ---
+
+--- Alignment Analysis ---
+Found 250 residue pairs from the optimized alignment matrix.
+Kabsch RMSD for the 250 aligned pairs = 4.02 Å
+Standard TM-score (normalized by reference, L=310) = 0.66934
+Standard TM-score (normalized by mobile,   L=534) = 0.41205
+Sequence identity in aligned region = 0.092
+
+--- Aligned Pairs (mobile, reference) ---
+(3, 307) (20, 309) (22, 308) (23, 250) (24, 276) (26, 278)
+(27, 279) (28, 280) (31, 268) (37, 265) (38, 264) (42, 282)
+(54, 248) (56, 275) (57, 274) (58, 243) (59, 270) (60, 236)
+(61, 150) (62, 151) (63, 233) (64, 232) (65, 229) (73, 231)
+(74, 230) (77, 234) (80, 235) (81, 238) (82, 237) (87, 241)
+(88, 245) (89, 246) (90, 242) (92, 240) (93, 273) (94, 269)
+(95, 272) (96, 271) (98, 277) (99, 252) (100, 251) (101, 305)
+(102, 142) (114, 72) (116, 69) (117, 298) (119, 120) (120, 121)
+(121, 125) (122, 128) (123, 124) (126, 127) (127, 130) (129, 143)
+(130, 141) (131, 133) (133, 140) (134, 117) (135, 116) (136, 115)
+(138, 47) (139, 46) (141, 45) (144, 42) (148, 73) (150, 118)
+(151, 301) (153, 144) (154, 145) (157, 149) (159, 160) (160, 266)
+(161, 262) (162, 261) (163, 163) (164, 170) (166, 168) (167, 167)
+(172, 258) (174, 260) (175, 259) (176, 263) (177, 147) (179, 256)
+(180, 255) (181, 146) (182, 283) (183, 281) (184, 254) (185, 297)
+(188, 300) (191, 304) (192, 303) (195, 306) (197, 302) (199, 299)
+(202, 68) (204, 65) (206, 51) (207, 52) (209, 54) (211, 53)
+(213, 122) (215, 61) (216, 289) (218, 292) (220, 286) (222, 196)
+(225, 293) (227, 284) (228, 135) (231, 294) (232, 296) (233, 295)
+(235, 64) (236, 63) (237, 62) (238, 59) (239, 79) (240, 80)
+(241, 58) (243, 57) (244, 56) (247, 177) (248, 174) (250, 169)
+(251, 173) (252, 176) (253, 175) (254, 172) (257, 164) (258, 165)
+(261, 162) (274, 166) (283, 156) (285, 158) (286, 157) (287, 155)
+(288, 154) (290, 153) (292, 226) (293, 227) (294, 228) (295, 224)
+(296, 97) (301, 220) (302, 223) (303, 222) (304, 225) (306, 55)
+(307, 288) (309, 193) (313, 287) (314, 194) (315, 195) (316, 192)
+(317, 189) (318, 190) (319, 187) (320, 188) (321, 191) (322, 202)
+(324, 199) (325, 198) (327, 197) (335, 37) (336, 36) (337, 35)
+(338, 34) (339, 33) (340, 82) (343, 100) (344, 96) (345, 95)
+(348, 94) (361, 93) (364, 219) (365, 179) (366, 180) (367, 181)
+(368, 182) (376, 213) (380, 4) (387, 2) (388, 3) (389, 32)
+(396, 0) (405, 92) (406, 90) (408, 91) (409, 217) (410, 83)
+(411, 89) (412, 215) (413, 218) (414, 84) (416, 208) (418, 85)
+(420, 207) (421, 204) (422, 14) (423, 13) (424, 203) (426, 15)
+(428, 16) (429, 18) (430, 17) (431, 19) (433, 21) (435, 23)
+(436, 25) (437, 24) (438, 26) (441, 28) (442, 31) (443, 29)
+(444, 30) (446, 27) (448, 104) (449, 105) (450, 108) (453, 109)
+(454, 112) (456, 114) (458, 113) (462, 111) (465, 39) (467, 75)
+(468, 43) (470, 40) (471, 41) (473, 67) (474, 70) (475, 71)
+(488, 20) (493, 12) (494, 9) (503, 22) (514, 8) (515, 7)
+(517, 5) (518, 6) (520, 214) (521, 210) (523, 211) (525, 209)
+(528, 185) (529, 184) (530, 183) (532, 178)
+
+--- Generating Final Aligned Structure ---
+Writing aligned mobile protein to 'batch_outputs_cutoff_3.0/d1crl___aligned_to_d1ede___0821.pdb'...
+Success! You can now load 'RPIC_all/d1ede__.pdb' and 'batch_outputs_cutoff_3.0/d1crl___aligned_to_d1ede___0821.pdb' into a viewer.
+To verify, you can run: ./TMalign/TMalign RPIC_all/d1ede__.pdb batch_outputs_cutoff_3.0/d1crl___aligned_to_d1ede___0821.pdb
+
+Program finished at: 2025-08-21 20:55:03
+Total execution time: 0:00:26.161716
