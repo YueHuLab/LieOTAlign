@@ -1,0 +1,23 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: RPIC_all/d1afra_.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: RPIC_all/d1jkua_.pdb
+Length of Chain_1: 345 residues
+Length of Chain_2: 266 residues
+
+Aligned length= 179, RMSD=   3.99, Seq_ID=n_identical/n_aligned= 0.089
+TM-score= 0.41873 (if normalized by length of Chain_1, i.e., LN=345, d0=6.77)
+TM-score= 0.52396 (if normalized by length of Chain_2, i.e., LN=266, d0=6.02)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+MPPREVHVQVTHSMPPQKIEIFKSLDNWAEENILVHLKPVEKCW------QPQDFLPDPASDGFDEQVRELRERAKEIPDDYFVVLVGDMI---TEEALPTYQTMLNTLDGVRDETGASPTSWAIWTRAWTAEENRHGDLLNKYLYLSGR-V-----------------------D---MRQIEKTIQ----YLIGSGMDPRTENSPYLGFIYTSFQERATFISHGNTARQAKEHGDIKLAQICGTIAADEKRHETAYTKIVEKLFEIDPDGTVLAFADMMRKKISMPAHLMYDGRDDNLFDHFSAVAQRLGVYTAKDYADILEFLVGRWKVDKLT-GLSAEGQKAQDYVC-RLP----PRIRRLEERAQGRAKEAPTMPFSWIFDRQVKL-----------------------------------------
+                                                  .:.:::.             :.: ::  .: ::::::::::   :::...:::::::.::::.       :::::::::::::::::::::::::::::. .                       :   :.....:.     ... :::.:..:::::::::::::::::::::::::: ::  :::::::::::::::::::::::::::::::::::::::...                                                             .......:.....  .      ..                                                                       
+--------------------------------------------MFKHTRKLQYNAK-------------PDR-SD--PI-MARRLQESLGGQWGETTGMMSYLSQGWASTGA-------EKYKDLLLDTGTEEMAHVEMISTMIGYLLEDAPFGPEDLKRDPSLATTMAGMDPEHSLVHGLNASLN-NPNGAAW-NAGYVTSSGNLVADMRFNVVRESEARLQVSRLY-SM--TEDEGVRDMLKFLLARETQHQLQFMKAQEELEEKYGIIVPGD------------------------------------------------------------MKEIEHSEFSHVLM-NF--SDGDGS------------------------------KAFEGQVAKDGEKFTYQENPEAMGGIPHIKPGDPRLHNHQG
+
+Total CPU time is  0.06 seconds

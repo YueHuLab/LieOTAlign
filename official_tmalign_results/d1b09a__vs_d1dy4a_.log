@@ -1,0 +1,23 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: RPIC_all/d1b09a_.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: RPIC_all/d1dy4a_.pdb
+Length of Chain_1: 206 residues
+Length of Chain_2: 433 residues
+
+Aligned length= 161, RMSD=   3.60, Seq_ID=n_identical/n_aligned= 0.087
+TM-score= 0.59071 (if normalized by length of Chain_1, i.e., LN=206, d0=5.34)
+TM-score= 0.31363 (if normalized by length of Chain_2, i.e., LN=433, d0=7.47)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+--------------------------QTD-------------------------------------------------------MSRKAFVFPKE------SDTSYVSLK-----APLTKPLKAFTVCLHFYTELSSTRGYSIFSYAT-----------------------KRQD-----------------------------------NEIL-IFWSKDIGYSFTVG-------------------------------GSEILFE------VPEVT-------VAPVHICTSWESASGIVEFWVD--GKPRV----------RKSL--------------------KKG--YTVG-AEASIILGQEQ-DSFGGNFE----------------------------------G--SQ----S-LVGDIGNVNMWDFVLSPDEINTIYLGGPFSPNVLNWRALKYEVQGEVFTKPQLWP
+                          .:.                                                       ..:::::::::      ::.::::::     .::. .:::::::::::::::::::::::::::                       :.:.                                   .::: :::..: :::::::                               :::::::      :::::       :::::::::::::.::::::::  .::::          ::::                    .::  :::. :::::::::.  .                                         .  .     . .:::::::::: :::   ::::    ::.                          
+SACTLQSETHPPLTWQKCSSGGTCTQQTGSVVIDANWRWTHATNSSTNCYDGNTWSSTLCPDNETCAKNCCLDGAAYASTYGVTTSGNSLSIGFVTQSAQKNVGARLYLMASDTTYQEF-TLLGNEFSFDVDVSQLPCGLNGALYFVSMDADGGVSKYPTNTAGAKYGTGYCDSQCPRDLKFINGQANVEGWEPSSNNANTGIGGHGSCCSEMDIWEANSI-SEALTPHPCTTVGQEICEGDGCGGTYSDNRYGGTCDPDGCDWNPYRLGNTSFYGPGSSFTLDTTKKLTVVTQFETSGAINRYYVQNGVTFQQPNAELGSYSGNELNDDYCTAEEAEFGGSSFSDKGGLTQFKKATSGGMVLVMSLW-DD-------YYANMLWLDSTYPTNETSSTPGAVRGSCSTSSGVPAQV-ESQSPNAKVTFSNIKFG-PIG---STGN----PSG--------------------------
+
+Total CPU time is  0.08 seconds

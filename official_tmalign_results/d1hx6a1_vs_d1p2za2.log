@@ -1,0 +1,23 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: RPIC_all/d1hx6a1.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: RPIC_all/d1p2za2.pdb
+Length of Chain_1: 230 residues
+Length of Chain_2: 312 residues
+
+Aligned length= 149, RMSD=   4.70, Seq_ID=n_identical/n_aligned= 0.081
+TM-score= 0.45758 (if normalized by length of Chain_1, i.e., LN=230, d0=5.63)
+TM-score= 0.35571 (if normalized by length of Chain_2, i.e., LN=312, d0=6.47)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+LRNQQAMAANLQARQIVLQQS--------YP-VIQQVETQTFDPANRSVFDVTPA-NVGI-VKGFLVKVTAAITNNHATEAVALTDF---------------------------GPANLVQRVIYYDPDNQRHT---------ETSG---------------W--HLHFVNTAKQGAPFL------SSMVTDSPIKY--GDVMNV-IDAPATIA-----------------AGAT---------------------------------------------GELTMYYWVPLAY---SET--DLTG-A-VLANVPQSKQRLKLEFANNNTAFAAVGANPLEAIYQGAGAADCEFEEISYTVYQSYL------------------DQLPVGQ---
+                             .. .:::::::::::: ::::::::. :::: :::::::::..                                          ..::::::::::::.:::::         ::::               :  :::::::::::..        .....        .: ... ......                   .                                                ...::::::::::   :.:  :::. . .:..:: :::::::::::.                         ::::::::::::.                  ...       
+---------------------NDTNDQSFNDYLSAANMLYPIPAN-ATNVPISIPSRNWAAFRGWAFTRLKT---------------KETPSLGSGYDPYYTYSGSIPYLDGTFYLNHTFKKVAITFDSSVSWPGNDRLLTPNEFEIKRSVDGEGYNVAQCNMTKDWFLVQMLANYNI--GYQGFYIPESY------KDRM-YSFFRNFQPM--SRQVVDDTKYKEYQQVGI---LHQHNNSGFVGYLAPTMREGQAYPANVPYPLIGKTAVDSITQKKFLCDRTLWRIPFSSNFMSMGALTDLGQNLLYANSA-HALDMTFEVDPM-------------------------DEPTLLYVLFEVFDVVRVHQPHRGVIETVYLRTP----FSA
+
+Total CPU time is  0.06 seconds
